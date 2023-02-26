@@ -5,8 +5,8 @@
  * Return: Always 0
 */
 int main(void)
-
 {
+	int n;
 	int n = 97;
 
 	while (n <= 122)
