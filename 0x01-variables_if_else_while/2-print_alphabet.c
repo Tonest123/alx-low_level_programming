@@ -1,10 +1,12 @@
 #include <stdio.h>
+
 /**
  * Main - Entry point
  * Description: 'peint lowercase alphabets'
  * Return: Always 0
 */
 int main(void)
+
 {
 	int n = 97;
 
