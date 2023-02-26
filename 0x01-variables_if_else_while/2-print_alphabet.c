@@ -2,7 +2,7 @@
 
 /**
  * Main - Entry point
- * Description: 'peint lowercase alphabets'
+ * Description: 'print lowercase alphabets'
  * Return: Always 0
 */
 int main(void)
