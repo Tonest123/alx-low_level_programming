@@ -4,7 +4,7 @@
  * Description: 'print lowercase alphabets'
  * Return: Always 0
 */
-int main(char* agrv[])
+'int' [-Werror=main]
 {
 	int n = 97;
 
