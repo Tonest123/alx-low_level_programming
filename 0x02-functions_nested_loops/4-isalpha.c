@@ -5,10 +5,10 @@
  * @c: ascii code of character to check
  *
  * Return: 1 if character is a letter, 0 if not
- */
+*/
 int _isalpha(int c)
 {
-	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 		return (1);
 	{
