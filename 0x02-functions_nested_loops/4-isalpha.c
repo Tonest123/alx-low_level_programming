@@ -1,28 +1,15 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * print_sign - prints +, 0, or - based on positive or negative
- * @n: number o=to check
+ * _isalpha - Checks if character is a letter
+ * @c: ascii code of character to check
  *
- * Return: 1 for positive, 0 for zero, -1 for negative
+ * Return: 1 if character is a letter, 0 if not
  */
-int print_sign(int n)
+int _isalpha(int c)
 {
-	if (n > 0)
-	{
-		_putchar('+');
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 		return (1);
-	}
 
-	if (n < 0)
-	{
-		_putchar('-');
-		return (-1);
-	}
-
-
-	_putchar('0');
 	return (0);
-
 }
-
