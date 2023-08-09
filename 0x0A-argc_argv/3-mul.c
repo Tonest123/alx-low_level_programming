@@ -41,13 +41,15 @@ int _atoi(char *s)
 		return (0);	
 	return (n);
 }
+
 /**
   * main - multiplies two numbers
   * @argc: number of arguments
   * @argv: array of argument
   *
   * Return: 0 (Success), 1 (Error)
-  */		
+  */
+
 int main(int argc, char *argv[])		
 {
 	int result, num1, num2;
