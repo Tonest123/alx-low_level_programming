@@ -6,8 +6,6 @@
 * is executed before main()
 */
 void myStartupFun(void) __attribute__((constructor));
-
-
 /**
   *myStartupFun - implementation of myStartupFun
   */
